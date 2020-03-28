@@ -4,6 +4,9 @@ import './App.css'
 
 let idSeq = ''
 
+const a = 1;
+console.log(a);
+
 function Control(props) {
   const { addTodo } = props;
   const inputRef = useRef();
